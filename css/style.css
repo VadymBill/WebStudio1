@@ -1,34 +1,10 @@
-.text{
-    color: rgba(255, 255, 255);
-}
-.text1{
-    color:#FFFFFF;
-}
-.text2{
-    color: #212121;
-}
-
-.text4:hover{
-    color: #2196F3;
-}
-.text4{
-    color: #212121;
-}
-.text5{
-    color:#ECECEC;
-}
-.text5:hover{
-    color: #2196F3;
-}
-.text6{
-   color:#757575
-} ;
-.text{
-    color:  (rgba(255, 255, 255, 0.6))
-}
-.text7{
-    color: #FFFFFF;
-}
-.Web{
-    color: #2196F3;
+:root{
+    --logo-color:#000;
+    --akcent-color:#2196F3;
+    --text-color:#212121;
+    --secondtext-color:#757575;
+    --title-color:#FFF;
+    --team-background:#F5F4FA;
+    --footer-background:#2F303A;
+    --footercontact-color:rgba(255, 255, 255, 0.60);
 }
