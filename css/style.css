@@ -56,3 +56,9 @@
 .footer-contacts{
     color: var(--footercontact-color);
 }
+.team-background{
+    background-color: var(--team-background);
+}
+.background{
+    background-color: var(--title-color);
+}
