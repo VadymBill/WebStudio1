@@ -8,3 +8,51 @@
     --footer-background:#2F303A;
     --footercontact-color:rgba(255, 255, 255, 0.60);
 }
+ .header-logo{
+   color: var(--akcent-color);
+ }
+ .header-logo1{
+    color: var(--text-color);
+ }
+.header{
+    color: var(--text-color);
+}
+.header:hover{
+    color: var(--akcent-color);
+}
+.header-contacts{
+    color: var(--secondtext-color);
+}
+.header-contacts:hover{
+    color: var(--akcent-color);
+}
+.title{
+    color: var(--title-color);
+}
+.footer{
+    background-color: var(--footer-background);
+}
+.list{
+    color: var(--text-color);
+}
+.list-subtext{
+    color: var(--secondtext-color);
+}
+.title1{
+    color: var(--text-color);
+}
+.title2{
+    color: var(--text-color);
+}
+.profession{
+    color: var(--secondtext-color);
+}
+.name{
+    color: var(--text-color);
+}
+.street{
+    color: var(--title-color);
+}
+.footer-contacts{
+    color: var(--footercontact-color);
+}
