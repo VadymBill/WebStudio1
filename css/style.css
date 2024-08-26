@@ -62,3 +62,6 @@
 .background{
     background-color: var(--title-color);
 }
+.header-logo2{
+    color: var(--title-color);
+}
