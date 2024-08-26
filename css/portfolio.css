@@ -1,15 +1,7 @@
-.text{
-    color: #FFFFFF;
+:root{
+    --text-color:#212121;
+    --hover-color:#2196F3;
 }
-.text1{
-    color:#FFFFFF;
-}
-.text2{
-    color: #212121;
-}
-.link{
-    color: #212121; 
-}
-.text5:hover{
-    color: #2196F3;
+.header:hover{
+color: var(--hover-color);
 }
