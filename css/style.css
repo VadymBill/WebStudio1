@@ -8,6 +8,7 @@
     --footer-background:#2F303A;
     --footercontact-color:rgba(255, 255, 255, 0.60);
 }
+
 .header-logo{
     color: var(--akcent-color);
 
@@ -59,10 +60,12 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
 }
+.main{
+    font-family: Roboto; 
+}
 .main-title{
     color: var(--title-color);
 text-align: center;
-font-family: Roboto;
 font-size: 44px;
 font-weight: 900;
 line-height: 0.136; /* 136.364% */
@@ -73,7 +76,6 @@ text-transform: uppercase;
     color: var(--title-color);
 
 text-align: center;
-font-family: Roboto;
 font-size: 16px;
 font-weight: 700;
 line-height: 0.187; /* 187.5% */
