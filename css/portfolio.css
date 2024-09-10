@@ -61,7 +61,7 @@ text-align: center;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
-line-height: 0.1625px; /* 162.5% */
+line-height: 1.625px; /* 162.5% */
 letter-spacing: 0.48px;
 }
 button:hover{
@@ -71,7 +71,7 @@ text-align: center;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
-line-height: 0.162px; /* 162.5% */
+line-height: 1.62px; /* 162.5% */
 letter-spacing: 0.48px;
 }
 .hero-text{
@@ -79,7 +79,7 @@ letter-spacing: 0.48px;
 font-family: Roboto;
 font-size: 18px;
 font-weight: 700;
-line-height: 0.2px; /* 200% */
+line-height: 2px; /* 200% */
 letter-spacing: 1.08px;
 }
 .hero-subtext{
@@ -87,7 +87,7 @@ letter-spacing: 1.08px;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
-line-height: 0.187px; /* 187.5% */
+line-height: 1.87px; /* 187.5% */
 letter-spacing: 0.48px;
 }
 .footer{
@@ -98,7 +98,7 @@ letter-spacing: 0.48px;
 font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 0.171px; /* 171.429% */
+line-height: 1.71px; /* 171.429% */
 letter-spacing: 0.42px;
 }
 .footer-contacts{
@@ -106,6 +106,6 @@ letter-spacing: 0.42px;
 font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 0.171px; /* 171.429% */
+line-height: 1.71px; /* 171.429% */
 letter-spacing: 0.42px;
 }

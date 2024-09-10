@@ -68,7 +68,7 @@ letter-spacing: 0.28px;
 text-align: center;
 font-size: 44px;
 font-weight: 900;
-line-height: 0.136; /* 136.364% */
+line-height: 1.36; /* 136.364% */
 letter-spacing: 2.64px;
 text-transform: uppercase;
 }
@@ -78,7 +78,7 @@ text-transform: uppercase;
 text-align: center;
 font-size: 16px;
 font-weight: 700;
-line-height: 0.187; /* 187.5% */
+line-height: 1.87; /* 187.5% */
 letter-spacing: 0.96px;
 }
 .work-title{
@@ -96,7 +96,7 @@ text-transform: uppercase;
 font-family: Roboto;
 font-size: 14px;;
 font-weight: 400;
-line-height: 0.171; /* 171.429% */
+line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
 .work-work{
@@ -147,7 +147,7 @@ letter-spacing: 0.48px;
 font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 0.171px; /* 171.429% */
+line-height: 1.71px; /* 171.429% */
 letter-spacing: 0.42px;
 }
 .footer-contacts{
@@ -155,6 +155,6 @@ letter-spacing: 0.42px;
 font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 0.171px; /* 171.429% */
+line-height: 1.71px; /* 171.429% */
 letter-spacing: 0.42px;
 }
