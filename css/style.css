@@ -8,14 +8,16 @@
     --footer-background:#2F303A;
     --footercontact-color:rgba(255, 255, 255, 0.60);
 }
-
+.body{
+    font-family: Roboto;
+}
 .header-logo{
     color: var(--akcent-color);
 
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
-line-height: normal;
+line-height:1.16;
 letter-spacing: 0.78px;
 }
 .header-logo1{
@@ -24,44 +26,47 @@ font-family: Raleway;
 font-size: 26px;
 
 font-weight: 700;
-line-height: normal;
+line-height: 1.16;
 letter-spacing: 0.78px;
+}
+.header-logo2{
+    color: var(--title-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.78px;
 }
 .header-main:hover{
     color: var(--akcent-color);
-
-font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
-line-height: normal;
+line-height: 1.14;
 letter-spacing: 0.28px;
 }
 .header-main{
     color: var(--text-color);
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.14;
     letter-spacing: 0.28px;
 }
 .header-contacts:hover{
     color: var(--akcent-color);
-font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
-line-height: normal;
+line-height: 1.14;
 letter-spacing: 0.28px;
 }
 .header-contacts{
     color: var(--secondtext-color);
-font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
-line-height: normal;
+line-height:1.14;
 letter-spacing: 0.28px;
 }
 .main{
-    font-family: Roboto; 
+    background-color: #2F303A;
 }
 .main-title{
     color: var(--title-color);
@@ -74,7 +79,7 @@ text-transform: uppercase;
 }
 .main-button{
     color: var(--title-color);
-
+background-color: #2196F3;
 text-align: center;
 font-size: 16px;
 font-weight: 700;
@@ -83,17 +88,14 @@ letter-spacing: 0.96px;
 }
 .work-title{
     color: var(--text-color);
-font-family: Roboto;
 font-size: 14px;
 font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
+line-height: 1.14;
+letter-spacing: 0.42;
 text-transform: uppercase;
 }
 .work-subtext{
     color:var(--secondtext-color);
-
-font-family: Roboto;
 font-size: 14px;;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
@@ -103,10 +105,9 @@ letter-spacing: 0.42px;
     color: var(--text-color);
 
 text-align: center;
-font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
-line-height: normal;
+line-height: 1.16;
 letter-spacing: 1.08px;
 }
 .team{
@@ -115,28 +116,25 @@ letter-spacing: 1.08px;
 .team-title{
     color: var(--text-color);
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.16;
     letter-spacing: 1.08px;
 }
 .team-name{
     color: var(--text-color);
 text-align: center;
-font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
-line-height: normal;
+line-height: 1.9;
 letter-spacing: 0.48px;
 }
 .team-profession{
     color: var(--secondtext-color);
 text-align: center;
-font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
-line-height: normal;
+line-height: 1.9;
 letter-spacing: 0.48px;
 }
 .footer{
@@ -144,17 +142,15 @@ letter-spacing: 0.48px;
 }
 .footer-street{
     color: var(--title-color);
-font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 1.71px; /* 171.429% */
+line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
 .footer-contacts{
     color: var(--footercontact-color);
-font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 1.71px; /* 171.429% */
+line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
