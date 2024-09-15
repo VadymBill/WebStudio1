@@ -7,8 +7,19 @@
     --white-color:#FFF;
     --logo-color:#000;
 }
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .body{
     font-family: Roboto;
+}
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-logo{
     color: var(--hover-color);
@@ -63,6 +74,10 @@ letter-spacing: 0.28px;
     line-height: 1.42;
     letter-spacing: 0.28px;
 }
+.hero{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .hero-button{
     color:var(--text-color);
 text-align: center;
@@ -95,6 +110,8 @@ line-height: 1.87; /* 187.5% */
 letter-spacing: 0.48px;
 }
 .footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color:var(--footer-background);
 }
 .footer-street{

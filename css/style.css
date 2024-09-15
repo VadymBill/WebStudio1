@@ -8,8 +8,19 @@
     --footer-background:#2F303A;
     --footercontact-color:rgba(255, 255, 255, 0.60);
 }
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .body{
     font-family: Roboto;
+}
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .header-logo{
     color: var(--akcent-color);
@@ -67,6 +78,8 @@ letter-spacing: 0.28px;
 }
 .main{
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .main-title{
     color: var(--title-color);
@@ -85,6 +98,10 @@ font-size: 16px;
 font-weight: 700;
 line-height: 1.87; /* 187.5% */
 letter-spacing: 0.96px;
+}
+.work{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .work-title{
     color: var(--text-color);
@@ -112,6 +129,8 @@ letter-spacing: 1.08px;
 }
 .team{
     background-color: var(--team-background);
+    padding-top:94px ;
+    padding-bottom:94px ;
 }
 .team-title{
     color: var(--text-color);
@@ -138,6 +157,8 @@ line-height: 1.9;
 letter-spacing: 0.48px;
 }
 .footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--footer-background);
 }
 .footer-street{
