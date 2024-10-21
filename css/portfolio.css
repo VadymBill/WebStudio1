@@ -78,6 +78,11 @@ letter-spacing: 0.28px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.hero-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .hero-button{
     color:var(--text-color);
 text-align: center;
