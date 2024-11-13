@@ -54,6 +54,7 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+
 }
 .header-main{
     color: var(--text-color);
@@ -61,7 +62,7 @@ letter-spacing: 0.28px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.28px;
-   
+
 }
 .header .container {
     display: flex;          
@@ -96,7 +97,19 @@ width: 44px;
 height: 4px;
 border-radius: 2px;
 flex-shrink: 0;
+display: block;
+
  }
+ .header-main::after{
+    background-color: transparent;
+    content: "";
+    width: 44px;
+    height: 4px;
+    border-radius: 2px;
+    flex-shrink: 0;
+    display: block;
+  
+     }
   
   
 .header-contacts:hover{
@@ -113,7 +126,24 @@ font-weight: 500;
 line-height:1.14;
 letter-spacing: 0.28px;
 }
-
+.header-contacts::after{
+    background-color: transparent;
+    content: "";
+    width: 44px;
+    height: 4px;
+    border-radius: 2px;
+    flex-shrink: 0;
+    display: block;
+}
+.header-contacts:hover::after{
+    background-color:var(--akcent-color);
+    content: "";
+    width: 44px;
+    height: 4px;
+    border-radius: 2px;
+    flex-shrink: 0;
+    display: block;
+}
 .main{
     background-color: #2F303A;
     padding-top: 200px;
