@@ -241,6 +241,9 @@ font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
 }
+.svg-work{
+
+}
 .team{
     background-color: var(--team-background);
     padding-top:94px ;
@@ -286,6 +289,34 @@ line-height: 1.9;
 letter-spacing: 0.48px;
 
 margin-bottom: 30px;
+}
+.team-svg-list{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    padding-left:32px;
+    padding-right: 32px;
+    padding-bottom: 20px;
+}
+.team-svg{
+    width: 20px;
+    height: 20px;
+}
+.team-svg-link{
+display: inline-block;
+fill: var(--secondtext-color);
+padding: 12px;
+border-radius: 50%;
+}
+.team-svg-link:hover{
+background-color: var(--akcent-color);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+fill: #FFF;
+padding: 12px;
 }
 .footer{
     padding-top: 60px;
