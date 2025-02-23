@@ -319,7 +319,7 @@ letter-spacing: 0.42px;
     left: 100%;
 }
 
-/* Image and card animations */
+
 .hero-li {
     transform: translateY(0);
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -348,42 +348,4 @@ letter-spacing: 0.42px;
 
 .hero-li:hover .hero-overlay {
     transform: translateY(0);
-}
-
-/* Text animations */
-.hero-text, .hero-subtext {
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-li:hover .hero-text {
-    transform: translateX(5px);
-}
-
-.hero-li:hover .hero-subtext {
-    transform: translateX(5px);
-}
-.hover-animation {
-    position: relative;
-    overflow: hidden;
-    transition: all 300ms ease;
-}
-
-.hover-animation::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--hover-color);
-    transition: width 300ms ease;
-}
-
-.hover-animation:hover::after {
-    width: 100%;
-}
-
-.hover-animation:hover {
-    color: var(--hover-color);
-    transform: translateY(-2px);
 }
