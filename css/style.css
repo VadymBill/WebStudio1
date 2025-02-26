@@ -1,13 +1,4 @@
-:root{
-    --logo-color:#000;
-    --akcent-color:#2196F3;
-    --text-color:#212121;
-    --secondtext-color:#757575;
-    --title-color:#FFF;
-    --team-background:#F5F4FA;
-    --footer-background:#2F303A;
-    --footercontact-color:rgba(255, 255, 255, 0.60);
-}
+
 .container{
     width: 1200px;
     margin-left: auto;
@@ -240,9 +231,6 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
-}
-.svg-work{
-
 }
 .team{
     background-color: var(--team-background);
