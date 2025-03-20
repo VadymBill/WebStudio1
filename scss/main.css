@@ -19,7 +19,7 @@
 }
 
 .header-logo {
-  color: #2196F3;
+  color: #2196f3;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -37,7 +37,7 @@
 }
 
 .header-logo2 {
-  color: #FFF;
+  color: #fff;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -46,7 +46,7 @@
 }
 
 .header-main:hover {
-  color: #2196F3;
+  color: #2196f3;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -94,7 +94,7 @@ nav ul li {
 }
 
 .header-main:hover::after {
-  background-color: #2196F3;
+  background-color: #2196f3;
   content: "";
   width: 100%;
   height: 4px;
@@ -116,7 +116,7 @@ nav ul li {
 }
 
 .header-contacts:hover {
-  color: #2196F3;
+  color: #2196f3;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -171,7 +171,7 @@ nav ul li {
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
-  color: var(--title-color);
+  color: #fff;
   text-align: center;
   font-size: 44px;
   font-weight: 900;
@@ -185,7 +185,7 @@ nav ul li {
   margin-left: auto;
   margin-right: auto;
   color: var(--title-color);
-  background-color: #2196F3;
+  background-color: #2196f3;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
