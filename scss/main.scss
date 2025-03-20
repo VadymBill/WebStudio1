@@ -1,10 +1,11 @@
-@import 'reset/base';
-@import 'components/header';
-@import 'components/main';
-@import 'components/work';
-@import 'components/team';
+@import "utils/variables";
+@import "reset/base";
+@import "components/header";
+@import "components/main";
+@import "components/work";
+@import "components/team";
 
-
+/**
 .body{
     font-family: Roboto;
 }
@@ -169,7 +170,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 text-align: center;
 font-size: 44px;
 font-weight: 900;
-line-height: 1.36; /* 136.364% */
+line-height: 1.36; /* 136.364% 
 letter-spacing: 2.64px;
 text-transform: uppercase;
 }
@@ -182,7 +183,7 @@ background-color: #2196F3;
 text-align: center;
 font-size: 16px;
 font-weight: 700;
-line-height: 1.87; /* 187.5% */
+line-height: 1.87; /* 187.5% 
 letter-spacing: 0.96px;
 border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -217,7 +218,7 @@ text-transform: uppercase;
     color:var(--secondtext-color);
 font-size: 14px;;
 font-weight: 400;
-line-height: 1.71; /* 171.429% */
+line-height: 1.71; /* 171.429% 
 letter-spacing: 0.42px;
 }
 .work-work{
@@ -313,19 +314,19 @@ padding: 12px;
     color: var(--title-color);
 font-size: 14px;
 font-weight: 400;
-line-height: 1.71; /* 171.429% */
+line-height: 1.71; /* 171.429% *
 letter-spacing: 0.42px;
 }
 .footer-contacts{
     color: var(--footercontact-color);
 font-size: 14px;
 font-weight: 400;
-line-height: 1.71; /* 171.429% */
+line-height: 1.71; /* 171.429% *
 letter-spacing: 0.42px;
 }
 
 
-/* Header hover effects */
+/* Header hover effects *
 .header-main, .header-contacts {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -348,7 +349,7 @@ letter-spacing: 0.42px;
   transform: scaleX(1);
 }
 
-/* Button hover animation */
+/* Button hover animation *
 .main-button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
               box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -359,7 +360,7 @@ letter-spacing: 0.42px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-/* Team card hover effects */
+/* Team card hover effects *
 .team-li {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -370,13 +371,13 @@ letter-spacing: 0.42px;
               0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-/* Social icons hover animation */
+/* Social icons hover animation *
 .team-svg-link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
               fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Work section overlay */
+/* Work section overlay *
 .work-img1 {
   position: relative;
 }
@@ -398,4 +399,4 @@ letter-spacing: 0.42px;
   line-height: 1.14;
   text-transform: uppercase;
   margin: 0;
-}
+}*/
