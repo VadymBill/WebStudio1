@@ -1,0 +1,102 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background-color: #27272b33;
+  transition: opacity 0.5ms cubic-bezier(0.83, -0.08, 0.32, 1),
+    visibility 0.5ms cubic-bezier(0.83, -0.08, 0.32, 1);
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  height: 350px;
+  background-color: #ffffff;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5ms cubic-bezier(0.83, -0.08, 0.32, 1);
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+.no-scroll {
+  overflow: hidden;
+}
+
+.btn-open {
+  border-color: transparent;
+
+  border-radius: 50%;
+  position: relative;
+
+  font-size: 24px;
+  color: #fff;
+
+  animation-name: circle;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+ 
+         .modal {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 350px;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            height: 581px;
+        }
+        .button-close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #333;
+            background: none;
+            border: none;
+        }
+        .button-close:hover {
+            color: red;
+        }
+        .main-button {
+            padding: 12px 24px;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .main-button:hover {
+            background: #0056b3;
+        }
+        .is-hidden {
+            display: none;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        label, input, textarea {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input, textarea {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+      
+      

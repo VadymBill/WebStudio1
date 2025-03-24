@@ -1,0 +1,22 @@
+.clients-ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.clients-svg {
+  outline: solid red;
+   width: 106px;
+  height: 60px;
+}
+.clients-title {
+  display: flex;
+  justify-content: center;
+}
+.clients-use {
+ 
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+}

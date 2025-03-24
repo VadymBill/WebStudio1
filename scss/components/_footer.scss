@@ -1,0 +1,19 @@
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $footer-background;
+}
+.footer-street{
+    color: var(--title-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71; 
+letter-spacing: 0.42px;
+}
+.footer-contacts{
+    color: $footercontact-color;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71; 
+letter-spacing: 0.42px;
+}

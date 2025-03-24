@@ -1,11 +1,47 @@
+* {
+  box-sizing: border-box;
+}
 
-   
-    .container{
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        border-color: solid red ;
-        border: 1px, color #000;
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+img,
+a,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media (max-width: 480px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 480px;
     }
+  }
+  @media (min-width: 768px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 768px;
+    }
+  }
+  
+}

@@ -4,9 +4,10 @@
 @import "components/main";
 @import "components/work";
 @import "components/team";
-
-/**
-.body{
+@import "components/modal";
+@import "components/clients"; 
+@import "components/footer"
+/*.body{
     font-family: Roboto;
 }
 .header-svg{
