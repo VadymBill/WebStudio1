@@ -113,6 +113,10 @@ nav ul li {
   transition-property: $text-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @media(min-width:768px){
+    display: flex;
+    
+  }
 }
 .header-contacts::after {
   background-color: transparent;
