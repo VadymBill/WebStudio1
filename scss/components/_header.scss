@@ -113,9 +113,10 @@ nav ul li {
   transition-property: $text-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  @media(min-width:768px){
-    display: flex;
-    
+  @media (min-width: 768px) {
+    .header-contacts {
+      display: flex;
+    }
   }
 }
 .header-contacts::after {
@@ -126,7 +127,7 @@ nav ul li {
   border-radius: 2px;
   flex-shrink: 0;
   display: block;
-  transition-property: var(--text-color);   
+  transition-property: var(--text-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

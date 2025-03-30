@@ -170,6 +170,11 @@ nav ul li {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media (min-width: 768px) {
+  .header-contacts .header-contacts {
+    display: flex;
+  }
+}
 
 .header-contacts::after {
   background-color: transparent;
@@ -242,6 +247,12 @@ nav ul li {
 .work-list {
   display: flex;
   flex-wrap: nowrap;
+}
+@media (min-width: 768px) {
+  .work-list .work-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .work-images {
